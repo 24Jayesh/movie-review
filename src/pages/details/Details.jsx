@@ -7,12 +7,13 @@ import Cast from './cast/Cast'
 import VideosSection from './videosection/VideosSection'
 import Similar from './carousels/Similar'
 import Recommendation from './carousels/Recommendation'
+import Ott from './ott/Ott'
 
 function Details() {
   const {mediaType,id} =useParams();
   const {data,loading}=useFetch(`/${mediaType}/${id}/videos`);   //feching the videos 
   const {data:credits,loading:creditsLoading}=useFetch(`/${mediaType}/${id}/credits`);
-
+  
 
 
   return (
