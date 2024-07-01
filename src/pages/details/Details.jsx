@@ -7,7 +7,6 @@ import Cast from './cast/Cast'
 import VideosSection from './videosection/VideosSection'
 import Similar from './carousels/Similar'
 import Recommendation from './carousels/Recommendation'
-import Ott from './ott/Ott'
 
 function Details() {
   const {mediaType,id} =useParams();
